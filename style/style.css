@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+body {
+  display: grid;
+  margin: 0px;
+  margin: 0 Auto;
+  /* overflow-x:hidden; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+p,
+a {
+  margin: 0px;
+}
+
+.fundo {
+  background-image: url("../img/fundo-de-aquarela-rosa-pintado-a-mao-detalhado_1048-17039.avif");
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header h1 {
+  line-height: 0.9;
+  font-size: 3rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.serviço {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.link-serviços {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Montserrat";
+  background-color: #ffc0cb;
+  padding: 10px 20px;
+  border: 4px solid #ff1493;
+  color: #dc143c;
+  border-radius: 4px;
+}
+
+.background {
+  background-image: url("../img/fundo-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.descriçao {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  font-size: 4rem;
+  max-width: 15ch;
+  margin-bottom: 20px;
+}
+
+.receber-notificacao {
+  font-size: 2rem;
+  font-family:"Montserrat", sans-serif; 
+  max-width: 30ch;
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.receber-notificacao span {
+  color: #FF1493;
+}
+
+.notificacao {
+  text-decoration: none;
+  font-family:"Montserrat", sans-serif ;
+  background-color: #32CD32;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.foto-perfil {
+  border-radius: 30%;
+}
